@@ -15,3 +15,4 @@ Apos clicar no botão 'enviar' do formulario , uma nova tarefa seria criada no b
 A terceira parte é a remoção de uma tarefa da lista.
 Quando clicado, o botão 'Retirar tarefa', irá abrir um formulario em tela com oos campos: nome da tarefa , id.
 E então seria deletado do banco de dados a tarefa com o id descrito.
+<img src='interface.png'>
