@@ -18,7 +18,7 @@ if ($_POST){
     $nometarefa = $_POST["nometarefa"];
     $data1 = $_POST["data1"];
     // criar dados na tabela
-    $conexaoDB->query("INSERT INTO tarefas.tarefa(nome,descricao,dataa) VALUES($nometarefa,$descricao,$data1)");
+    $conexaoDB->query("INSERT INTO tarefas.tarefa(nome,descricao,dataa) VALUES('$nometarefa','$descricao','$data1')");
     }
     
 };
@@ -31,9 +31,8 @@ if ($_GET){
     }
 };
 
-$buscar_tarefa= 'SELECT * FROM tarefas.tarefa';
+$buscar_tarefa= 'SELECT id,nome,descricao,dataa FROM tarefas.tarefa';
 $resultado = mysqli_query($conexaoDB,$buscar_tarefa);
-//$resultado1 = mysqli_fetch_array($resultado);
-
+//$resultado1 = mysqli_fetch_assoc($resultado);
 
 ?>

@@ -9,38 +9,36 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+}
+* {
     box-sizing: border-box;
 }
-*{box-sizing: border-box;}
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {
-        width: 50%;
-        float: left;
-        height: 100%;
-        padding-top: 50px;
-    }
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 .row{
     width: 100%;
-    
 }
 #div-esquerda h2{
     color:	#4682B4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+   
+}
+#titulo h1{
+    text-align: center;
 }
 #titulo{
-    text-align: center;
     color:#6495ED;
     padding: 20px;
     box-shadow: 1px 1px 1px lightgray;
@@ -48,6 +46,14 @@ body{
 }   
 #div-esquerda{
     text-align: center;
+    float: left;
+    padding-left: 20px;
+    display:flex;
+    flex-direction: column;
+    
+}
+#div-direita{
+    float: left;
 }
 
 .div-form{
@@ -101,4 +107,24 @@ input[type='submit']{
 #btn-retirar,#btn-adicionar{
     display: block;
     margin: 10px 0;
+}
+
+table,th,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+table{
+    width:100%;
+}
+#table-div{
+    width:80%;
+    margin:auto;
+    border: 1px solid gray;
+}
+.p-top{
+    padding-top:50px;
+
 }
