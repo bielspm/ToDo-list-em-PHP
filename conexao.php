@@ -1,7 +1,7 @@
 <?php 
 $host = 'localhost';
 $usuario = 'root';
-$senha = 'CounterSTRIKE15';
+$senha = '';
 $db = 'tarefas';
 $port = '3306';
 
